@@ -3,7 +3,14 @@
 @section('title', 'About Us | ' . config('app.name'))
 
 @section('content')
-    <p> Built with &hearts; by Florian. </p>
+    <img src=" {{ asset('/Images/Logo.png') }} " alt="Logo" class="rounded shadow-md my-8 h-24">
+    
+    <h2 class="text-gray-700">
+        Built with <span class="text-pink-500">&hearts;</span> by Florian.
+    </h2>
+    
+    <p class="mt-5">
+        <a href="{{route('home')}}" class="text-indigo-500 hover:text-indigo-600 underline">Revenir à la page d'accueil</a>   
+    </p>
 
-    <a href="{{route('home')}}">Revenir à la page d'accueil</a>   
 @endsection
