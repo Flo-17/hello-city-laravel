@@ -10,7 +10,7 @@
     </h2>
     
     <p class="mt-5">
-        <a href="{{route('home')}}" class="text-indigo-500 hover:text-indigo-600 underline">Revenir à la page d'accueil</a>   
+        <a href="{{route('home')}}" class="text-indigo-500 hover:text-indigo-600 underline">Revenir à la page d'accueil.</a>   
     </p>
 
 @endsection
