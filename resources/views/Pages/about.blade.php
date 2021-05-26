@@ -6,7 +6,7 @@
     <img src=" {{ asset('/Images/Logo.png') }} " alt="Logo" class="rounded shadow-md my-8 h-24">
     
     <h2 class="text-gray-700">
-        Built with <span class="text-pink-500">&hearts;</span> by Florian.
+        Built with <span class="text-pink-500">&hearts;</span> by Florian C.
     </h2>
     
     <p class="mt-5">
