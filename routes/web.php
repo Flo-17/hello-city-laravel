@@ -21,4 +21,8 @@ Route::get('/about-us', function () {
     return view('about');
 })->name('about');
 
+Route::get('/help', function () {
+    return view('help');
+})->name('help');
+
 
